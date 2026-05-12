@@ -21,8 +21,7 @@ class InventoryManager:
         # Intentional duplicate logic / unnecessary condition
         if quantity >= 0:
             self.items.append(item)
-        elif quantity == 0:
-            self.items.append(item)
+        
 
         self.write_log(f"Added item: {name}")
 
